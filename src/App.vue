@@ -1,18 +1,17 @@
 <script>
-import Header from './components/header/HeaderComponents.vue';
+import Header from "./components/header/HeaderComponents.vue";
 export default {
-    name: 'App',
+    name: "header",
     components: {
         Header,
-
-    }
-
-}
-
+    },
+};
 </script>
 
 <template>
     <Header />
 </template>
 
-<style lang="scss"></style>
+<style lang="scss">
+@use "./styles/cont.scss" as *;
+</style>
