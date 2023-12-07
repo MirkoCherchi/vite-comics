@@ -1,10 +1,27 @@
 <script>
+import MainTop from '../main/MainTop.vue';
+import MainBottom from '../main/MainBottom.vue';
 export default {
+    name: 'Main',
+    components: {
+        MainTop,
+        MainBottom,
+    }
 
 }
 
 </script>
 
-<template></template>
+<template>
+    <main>
+        <MainTop />
+        <MainBottom />
+    </main>
+</template>
 
-<style lang="scss"></style>
+<style lang="scss">
+main {
+    display: flex;
+    flex-direction: column;
+}
+</style>
