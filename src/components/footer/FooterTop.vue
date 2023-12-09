@@ -135,8 +135,7 @@ export default {
             li {
                 font-size: 14px;
                 font-family: "Open Sans", sans-serif;
-                font-weight: 500;
-                color: gray;
+                color: #959595;
                 margin-right: 55px;
                 width: 100%;
 
