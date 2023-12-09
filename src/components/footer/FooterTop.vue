@@ -133,7 +133,7 @@ export default {
             gap: 10px;
 
             li {
-                font-size: 14px;
+                font-size: .875rem;
                 font-family: "Open Sans", sans-serif;
                 color: #959595;
                 margin-right: 55px;

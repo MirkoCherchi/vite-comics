@@ -57,9 +57,10 @@ export default {
         display: flex;
         align-items: center;
         flex-wrap: nowrap;
-        justify-content: center;
-        padding: 45px 0;
+        justify-content: space-between;
+        padding: 45px;
         gap: 60px;
+        padding-left: 40px;
 
     }
 
@@ -69,8 +70,9 @@ export default {
         height: 100%;
         gap: 15px;
         text-decoration: none;
-        font-size: .8125rem;
+        font-size: 1rem;
         color: #fff;
+
     }
 
 
