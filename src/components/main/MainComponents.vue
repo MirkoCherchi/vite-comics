@@ -1,11 +1,14 @@
 <script>
 import MainTop from '../main/MainTop.vue';
 import MainBottom from '../main/MainBottom.vue';
+import MainJumbotron from './MainJumbotron.vue';
 export default {
     name: 'Main',
     components: {
         MainTop,
         MainBottom,
+        MainJumbotron,
+
     }
 
 }
@@ -14,8 +17,10 @@ export default {
 
 <template>
     <main>
+        <MainJumbotron />
         <MainTop />
         <MainBottom />
+
     </main>
 </template>
 
