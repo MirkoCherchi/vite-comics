@@ -137,7 +137,7 @@ export default {
                 font-family: "Open Sans", sans-serif;
                 color: #959595;
                 margin-right: 55px;
-                width: 100%;
+                width: 105%;
 
                 a {
                     text-decoration: none;
